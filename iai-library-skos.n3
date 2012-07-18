@@ -1,0 +1,899 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix sioct: <http://rdfs.org/sioc/types#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:024a4e9d-6a38-4ca9-8f40-6dc38dc62a94>
+    dct:identifier 106 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Flow Charts" .
+
+<urn:uuid:0339bd3a-1495-46d2-a252-6cb85d3d0599>
+    dct:identifier 126 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "RDF" .
+
+<urn:uuid:09ddcfdd-99e3-458b-8b5b-c85c6b4fe98d>
+    dct:identifier 129 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Science" .
+
+<urn:uuid:0b7ff419-bfa9-4880-a5da-0af7cc6608b2>
+    dct:identifier 89 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Knowledge Management" .
+
+<urn:uuid:0f72aabd-b34b-43ad-8476-fb015741696a>
+    dct:identifier 94 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Software" .
+
+<urn:uuid:0f76c055-b1db-449c-9b82-7938c1b604d3>
+    dct:identifier 59 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Theory" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:12e88375-1e85-4996-b4fc-c88387e2e589>
+    dct:identifier 57 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Standards & Guidelines" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:1382e9c1-b28c-44fb-ba43-21b7d71bd1bb>
+    dct:identifier 53 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Searching" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:13c9acce-5573-4fed-b0c8-6b0852bf7fab>
+    dct:identifier 73 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Design" .
+
+<urn:uuid:17e6a8e5-7c7c-4c65-8f5b-cbbd11ff1825>
+    dct:identifier 22 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Personalization & Customization" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2>
+    dct:identifier 29 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:0f72aabd-b34b-43ad-8476-fb015741696a>, <urn:uuid:cf5e6b7d-cc99-410e-8d8c-c60f7e668e38>, <urn:uuid:efb18460-e572-45ba-ace8-5ca97712bef9>, <urn:uuid:f8d87b4a-ed6a-47e4-a42a-99f732425756> ;
+    skos:prefLabel "Media" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:1b7e10db-4198-4268-a8a1-1d09681dcb8e>
+    dct:identifier 64 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Web Development" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:1ce1033a-3d7d-4de2-befe-a72074f19cd6>
+    dct:identifier 31 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Law" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:1fd50bf8-a214-486a-8381-060e039b3871>
+    dct:identifier 7 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Business-to-Business" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:2255d641-ad48-4fec-9e43-1e03ba7a25de>
+    dct:identifier 10 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Classification Systems" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:2f2524f5-0803-4fd4-ae03-831e01c24d37>
+    dct:identifier 82 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Journalism" .
+
+<urn:uuid:314897d6-bea0-4d2e-874d-7358b98873a8>
+    dct:identifier 32 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Language Processing" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:346e455f-728d-4540-b573-a12c0a6b95b9>
+    dct:identifier 102 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Primary Navigation" .
+
+<urn:uuid:355683ab-9c6d-4a7f-9a6f-7ea75670776b>
+    dct:identifier 84 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Laptop & Tablet Computers" .
+
+<urn:uuid:3adf3c77-1d2e-4c04-8c96-f2f3af20302f>
+    dct:identifier 74 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Interaction Design" .
+
+<urn:uuid:3dad93f9-d3a0-49a2-9140-66f925cfd251>
+    dct:identifier 77 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Web Design" .
+
+<urn:uuid:401a15e4-b3c3-4524-b1cc-02a7de75a3c7>
+    dct:identifier 127 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "RSS" .
+
+<urn:uuid:414c33cd-d712-495a-9a37-a2b41aaab9a2>
+    dct:identifier 122 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Search Technology" .
+
+<urn:uuid:41680709-76cc-4473-a69c-8e661fcfa9d9>
+    dct:identifier 46 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Indexing" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:41859909-dbbd-4c73-b87b-81c2badd8f29>
+    dct:identifier 5 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Business Context" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:47664a3d-96ca-406a-a696-1e44a38eba11>
+    dct:identifier 14 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Architecture - General" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959>
+    dct:identifier 61 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:414c33cd-d712-495a-9a37-a2b41aaab9a2>, <urn:uuid:6e2417a5-e29f-4b3a-aaea-0877458e131d>, <urn:uuid:7353aec3-62ea-46d1-85af-9229e6e7aad7>, <urn:uuid:9cd4c251-b8ad-43be-bb32-2ffedd867d30>, <urn:uuid:9f320ae9-52b6-4b47-bf43-072e1ca525e0>, <urn:uuid:ae7e94c5-a507-4814-b12d-70d7df6afb68>, <urn:uuid:b4d041e0-562f-47cd-8b71-34a4aaefac73> ;
+    skos:prefLabel "Tools & Technology" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:48a4c68f-e50c-4b49-864c-cd8c80383761>
+    dct:identifier 83 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Library & Information Science" .
+
+<urn:uuid:4bb33707-cede-46c7-99d3-b56f0be5946b>
+    dct:identifier 103 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Supplemental Navigation" .
+
+<urn:uuid:4d5a166e-36ef-4a0f-9590-4e6fc04749f7>
+    dct:identifier 33 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Justification" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:52496aa7-2611-4b1c-99da-e2c6888bc554>
+    dct:identifier 62 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:c920bff7-42f7-4b87-8e7a-80b342a893dd> ;
+    skos:prefLabel "User Centered Design" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:5480133a-d26d-405f-9e85-438c00498cee>
+    dct:identifier 104 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Card Sorting" .
+
+<urn:uuid:5c83330a-708f-49a4-afc1-5755d8efc38f>
+    dct:identifier 81 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Human Computer Interaction" .
+
+<urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4>
+    dct:identifier 41 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:355683ab-9c6d-4a7f-9a6f-7ea75670776b>, <urn:uuid:5fdef3d7-de61-479b-81e3-c9c3bcbc5ba5>, <urn:uuid:c80a070e-1565-4654-8103-e59769007f42> ;
+    skos:prefLabel "Hardware" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:5e5bf5a1-65c4-448d-a538-c44e5adb59e8>
+    dct:identifier 23 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Organizational Theory" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:5fdef3d7-de61-479b-81e3-c9c3bcbc5ba5>
+    dct:identifier 85 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Mobile Phones" .
+
+<urn:uuid:609d8ce1-0798-4724-9501-80dda087fac8>
+    dct:identifier 42 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Intranets & Extranets" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:6154f028-3175-4f5a-9561-76f15532f9a5>
+    dct:identifier 47 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Architecture - Education & Training" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:65bd8cd3-6665-4b20-8f16-1a3e1c36ee16>
+    dct:identifier 54 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Semantic Web" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:6699d2a4-ed54-4226-81b5-617419805f69>
+    dct:identifier 48 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Architecture - Job Skills" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:68a6f8d7-cdec-47dc-b9a6-febe27580082>
+    dct:identifier 108 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Patterns" .
+
+<urn:uuid:6c4d9353-9999-41b6-8f4a-695c4d09db4b>
+    dct:identifier 12 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:bfdbed95-50c7-499b-882b-933373e3dc6e> ;
+    skos:prefLabel "Classification" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:6e2417a5-e29f-4b3a-aaea-0877458e131d>
+    dct:identifier 124 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Wireless Networking" .
+
+<urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb>
+    dct:identifier 18 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:024a4e9d-6a38-4ca9-8f40-6dc38dc62a94>, <urn:uuid:5480133a-d26d-405f-9e85-438c00498cee>, <urn:uuid:68a6f8d7-cdec-47dc-b9a6-febe27580082>, <urn:uuid:8085df69-3520-4b73-a97e-0dc1d4d5bc84>, <urn:uuid:97b19901-c322-497e-b3e9-cae1790d0ed1>, <urn:uuid:b4b30993-1afa-4ea9-8385-847fed1ce57e>, <urn:uuid:caa59164-2b81-432b-8b9e-5cd936b85d2b>, <urn:uuid:db1a4761-fe47-45c6-a748-f6c830283e94>, <urn:uuid:e6523881-81a2-4d74-8282-3670d1cf1733>, <urn:uuid:e692133d-7e9d-4f18-8cdd-daaaad02de83> ;
+    skos:prefLabel "Process & Techniques" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:6f48e770-740c-41e5-9ec4-341a43e953f2>
+    dct:identifier 97 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Breadcrumbs" .
+
+<urn:uuid:7335e038-ad13-47b7-9c86-e5c1a400ad67>
+    dct:identifier 92 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Ontologies" .
+
+<urn:uuid:7353aec3-62ea-46d1-85af-9229e6e7aad7>
+    dct:identifier 118 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Web Browsers" .
+
+<urn:uuid:74283f02-b97d-49ef-b3d5-9bed22a21503>
+    dct:identifier 101 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Seeking Behavior" .
+
+<urn:uuid:74f444ae-f7e8-488c-8049-4257d193c81f>
+    dct:identifier 56 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:fdf942fa-47b3-40a7-b6f3-eceeec75c50b> ;
+    skos:prefLabel "Software" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7a0bbe2a-fbd9-42f2-96bd-a946b86c4458>
+    dct:identifier 34 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Discussion Lists" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7a4f241a-ec24-46ab-9675-2be5e0e484a3>
+    dct:identifier 8 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Case Studies" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7b4f4354-952c-445a-8819-50e0f37a489a>
+    dct:identifier 6 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Business Strategy" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7d075604-cff2-4bbf-a9fe-a84e035954e1>
+    dct:identifier 76 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Visual Design" .
+
+<urn:uuid:7d8b5d1e-9a48-40a1-bfc7-7c5e2713360c>
+    dct:identifier 49 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Architecture - Practices" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7e7ebafb-8515-48ea-b204-418bcd6a3601>
+    dct:identifier 37 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "End Users" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:7f7764bd-1290-40be-9004-ef59aaee242c>
+    dct:identifier 100 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Scent" .
+
+<urn:uuid:8085df69-3520-4b73-a97e-0dc1d4d5bc84>
+    dct:identifier 105 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Content Inventories" .
+
+<urn:uuid:83c2ced3-8cdf-4039-820b-c893b8fed5e6>
+    dct:identifier 35 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "E-commerce" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:89a45d20-d9da-4019-a2d3-9c87d3d0da46>
+    dct:identifier 80 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Experience Design" .
+
+<urn:uuid:955115b5-1993-41a0-9bcb-660be7e5e38b>
+    dct:identifier 36 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Education & Training" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238>
+    dct:identifier 51 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:0b7ff419-bfa9-4880-a5da-0af7cc6608b2>, <urn:uuid:7335e038-ad13-47b7-9c86-e5c1a400ad67>, <urn:uuid:fbf83017-f24e-4005-a2b4-9a9197e38b32> ;
+    skos:prefLabel "Information Organization" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:97b19901-c322-497e-b3e9-cae1790d0ed1>
+    dct:identifier 113 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Wireframes" .
+
+<urn:uuid:9a26e990-3682-4e88-b575-38c7fa7472dc>
+    dct:identifier 60 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:d2e9a10c-ea5e-486d-82e1-dd8c056f2fea> ;
+    skos:prefLabel "Thesauri" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9a7fa6c0-8a22-43cb-ad06-84f845eb2364>
+    dct:identifier 78 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Cognitive Science" .
+
+<urn:uuid:9baa0727-a2fc-49ec-b626-518dc9cca3ab>
+    dct:identifier 20 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Controlled Vocabularies" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9c40578b-9734-4af0-8752-206fe916bf5c>
+    dct:identifier 15 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Conferences & Meetings" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9c89332d-07af-496a-b6c2-c189659dd375>
+    dct:identifier 65 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Writing for the Web" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9cb99518-7542-4543-9519-26a668de363a>
+    dct:identifier 71 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Experience Design" .
+
+<urn:uuid:9cd4c251-b8ad-43be-bb32-2ffedd867d30>
+    dct:identifier 121 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Instant Messaging" .
+
+<urn:uuid:9dd1b55b-a342-4647-a00f-5afec643c26b>
+    dct:identifier 26 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Digital Libraries" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9f05bace-6412-46a0-ae55-1e4fad58d21f>
+    dct:identifier 11 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Client Management" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:9f320ae9-52b6-4b47-bf43-072e1ca525e0>
+    dct:identifier 119 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Communication Technology" .
+
+<urn:uuid:9fe7eafb-3331-43c5-b388-a264b8b40b22>
+    dct:identifier 55 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Social Context" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:a00b7682-aed0-415c-b2d6-8266df10723e>
+    dct:identifier 98 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Contextual Navigation" .
+
+<urn:uuid:aa2f0ea8-578c-432f-b465-f6b45f7a4226>
+    dct:identifier 131 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Findability" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:aa90a927-705e-4c03-9bbc-8ee9a03f3e5a>
+    dct:identifier 3 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Architecture - Buildings" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ab009827-4e41-426e-aa86-705e7e8ee441>
+    dct:identifier 43 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Personal Digital Assistants" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ad4cdadb-5a42-4977-bac5-6669ab56c640>
+    dct:identifier 4 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Branding" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ae7e94c5-a507-4814-b12d-70d7df6afb68>
+    dct:identifier 123 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Web Blogging" .
+
+<urn:uuid:aea32118-7d41-4e19-b2af-e79f8d633335>
+    dct:identifier 40 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Guides & Collections" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:b0862a8e-3e93-4f5c-8aa5-e32c48916b1f>
+    dct:identifier 79 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Computer Science" .
+
+<urn:uuid:b4b30993-1afa-4ea9-8385-847fed1ce57e>
+    dct:identifier 107 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Guidelines & Best Practices" .
+
+<urn:uuid:b4d041e0-562f-47cd-8b71-34a4aaefac73>
+    dct:identifier 120 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "E-mail" .
+
+<urn:uuid:b5917a19-269c-425a-b51b-042ab280063a>
+    dct:identifier 13 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Project Management" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:bba39c59-5b0e-45ff-8528-d7a46e1d8bed>
+    dct:identifier 2 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Announcements" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:bd5ec3e2-d019-4303-adec-3b6b2d152dec>
+    dct:identifier 128 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "XFML" .
+
+<urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630>
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <urn:uuid:0f76c055-b1db-449c-9b82-7938c1b604d3>, <urn:uuid:12e88375-1e85-4996-b4fc-c88387e2e589>, <urn:uuid:1382e9c1-b28c-44fb-ba43-21b7d71bd1bb>, <urn:uuid:17e6a8e5-7c7c-4c65-8f5b-cbbd11ff1825>, <urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2>, <urn:uuid:1b7e10db-4198-4268-a8a1-1d09681dcb8e>, <urn:uuid:1ce1033a-3d7d-4de2-befe-a72074f19cd6>, <urn:uuid:1fd50bf8-a214-486a-8381-060e039b3871>, <urn:uuid:2255d641-ad48-4fec-9e43-1e03ba7a25de>, <urn:uuid:314897d6-bea0-4d2e-874d-7358b98873a8>, <urn:uuid:41680709-76cc-4473-a69c-8e661fcfa9d9>, <urn:uuid:41859909-dbbd-4c73-b87b-81c2badd8f29>, <urn:uuid:47664a3d-96ca-406a-a696-1e44a38eba11>, <urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959>, <urn:uuid:4d5a166e-36ef-4a0f-9590-4e6fc04749f7>, <urn:uuid:52496aa7-2611-4b1c-99da-e2c6888bc554>, <urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4>, <urn:uuid:5e5bf5a1-65c4-448d-a538-c44e5adb59e8>, <urn:uuid:609d8ce1-0798-4724-9501-80dda087fac8>, <urn:uuid:6154f028-3175-4f5a-9561-76f15532f9a5>, <urn:uuid:65bd8cd3-6665-4b20-8f16-1a3e1c36ee16>, <urn:uuid:6699d2a4-ed54-4226-81b5-617419805f69>, <urn:uuid:6c4d9353-9999-41b6-8f4a-695c4d09db4b>, <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb>, <urn:uuid:74f444ae-f7e8-488c-8049-4257d193c81f>, <urn:uuid:7a0bbe2a-fbd9-42f2-96bd-a946b86c4458>, <urn:uuid:7a4f241a-ec24-46ab-9675-2be5e0e484a3>, <urn:uuid:7b4f4354-952c-445a-8819-50e0f37a489a>, <urn:uuid:7d8b5d1e-9a48-40a1-bfc7-7c5e2713360c>, <urn:uuid:7e7ebafb-8515-48ea-b204-418bcd6a3601>, <urn:uuid:83c2ced3-8cdf-4039-820b-c893b8fed5e6>, <urn:uuid:955115b5-1993-41a0-9bcb-660be7e5e38b>, <urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238>, <urn:uuid:9a26e990-3682-4e88-b575-38c7fa7472dc>, <urn:uuid:9baa0727-a2fc-49ec-b626-518dc9cca3ab>, <urn:uuid:9c40578b-9734-4af0-8752-206fe916bf5c>, <urn:uuid:9c89332d-07af-496a-b6c2-c189659dd375>, <urn:uuid:9dd1b55b-a342-4647-a00f-5afec643c26b>, <urn:uuid:9f05bace-6412-46a0-ae55-1e4fad58d21f>, <urn:uuid:9fe7eafb-3331-43c5-b388-a264b8b40b22>, <urn:uuid:aa2f0ea8-578c-432f-b465-f6b45f7a4226>, <urn:uuid:aa90a927-705e-4c03-9bbc-8ee9a03f3e5a>, <urn:uuid:ab009827-4e41-426e-aa86-705e7e8ee441>, <urn:uuid:ad4cdadb-5a42-4977-bac5-6669ab56c640>, <urn:uuid:aea32118-7d41-4e19-b2af-e79f8d633335>, <urn:uuid:b5917a19-269c-425a-b51b-042ab280063a>, <urn:uuid:bba39c59-5b0e-45ff-8528-d7a46e1d8bed>, <urn:uuid:bfc84d9e-bbbb-438e-9776-c486bdab2dbd>, <urn:uuid:bff49638-9952-4393-942a-2039aaeb811f>, <urn:uuid:ccf73214-f792-4771-9dec-53958624c839>, <urn:uuid:cf9fc624-cf6d-4a19-bfc3-533838aa0fd9>, <urn:uuid:d1b079d7-5788-4d89-8a87-ce6c28df005e>, <urn:uuid:d2fa8109-6280-47f3-9506-52ac41ec4fb0>, <urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226>, <urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0>, <urn:uuid:d7c11888-1f01-4443-adb8-b05df1133b5a>, <urn:uuid:d7e51e3b-5c77-4c5d-b506-647735e81ab2>, <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc>, <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae>, <urn:uuid:e37c4cae-bdf5-4aa5-b813-b5f97518c973>, <urn:uuid:ec0b6d04-cdcc-436d-90cb-385b39018249>, <urn:uuid:f420bb98-6664-4656-b5b9-9e4d8a110740>, <urn:uuid:ff0d6a4f-523d-407f-9b3e-9ce71ef5f5aa>, <urn:uuid:ff5464b5-0c9c-450f-a2a5-fc3eca37114b>, <urn:uuid:ff7825ba-8bd4-4a3d-9b15-a8bbe2297b96> .
+
+<urn:uuid:bfc84d9e-bbbb-438e-9776-c486bdab2dbd>
+    dct:identifier 63 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "User Testing" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:bfdbed95-50c7-499b-882b-933373e3dc6e>
+    dct:identifier 67 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6c4d9353-9999-41b6-8f4a-695c4d09db4b> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Faceted Classification" .
+
+<urn:uuid:bff49638-9952-4393-942a-2039aaeb811f>
+    dct:identifier 17 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:eb56653f-0806-431e-849f-5355075df079>, <urn:uuid:ec2263b7-ea82-41a8-9aa7-f43392f85515>, <urn:uuid:ed14602c-f3b6-48c8-b50c-aa6b9f48f80e> ;
+    skos:prefLabel "Content Management" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:c6c897e5-c2d3-4342-8457-2f1a69be6623>
+    dct:identifier 75 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Patterns" .
+
+<urn:uuid:c80a070e-1565-4654-8103-e59769007f42>
+    dct:identifier 86 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Personal Digital Assistants" .
+
+<urn:uuid:c920bff7-42f7-4b87-8e7a-80b342a893dd>
+    dct:identifier 125 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:52496aa7-2611-4b1c-99da-e2c6888bc554> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Interface Design" .
+
+<urn:uuid:c9c99806-82ba-444a-a4da-d6ec094a234f>
+    dct:identifier 72 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Graphic Design" .
+
+<urn:uuid:caa59164-2b81-432b-8b9e-5cd936b85d2b>
+    dct:identifier 112 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Site Blueprints" .
+
+<urn:uuid:ccf73214-f792-4771-9dec-53958624c839>
+    dct:identifier 19 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Portals" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:cf5e6b7d-cc99-410e-8d8c-c60f7e668e38>
+    dct:identifier 93 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Audio" .
+
+<urn:uuid:cf9fc624-cf6d-4a19-bfc3-533838aa0fd9>
+    dct:identifier 132 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Findability" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d1b079d7-5788-4d89-8a87-ce6c28df005e>
+    dct:identifier 9 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Classics" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d2e9a10c-ea5e-486d-82e1-dd8c056f2fea>
+    dct:identifier 117 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:9a26e990-3682-4e88-b575-38c7fa7472dc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Thesaurus Design" .
+
+<urn:uuid:d2fa8109-6280-47f3-9506-52ac41ec4fb0>
+    dct:identifier 38 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Evaluation & Analysis" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226>
+    dct:identifier 66 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:0339bd3a-1495-46d2-a252-6cb85d3d0599>, <urn:uuid:401a15e4-b3c3-4524-b1cc-02a7de75a3c7>, <urn:uuid:bd5ec3e2-d019-4303-adec-3b6b2d152dec> ;
+    skos:prefLabel "XML" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0>
+    dct:identifier 27 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:09ddcfdd-99e3-458b-8b5b-c85c6b4fe98d>, <urn:uuid:2f2524f5-0803-4fd4-ae03-831e01c24d37>, <urn:uuid:48a4c68f-e50c-4b49-864c-cd8c80383761>, <urn:uuid:5c83330a-708f-49a4-afc1-5755d8efc38f>, <urn:uuid:89a45d20-d9da-4019-a2d3-9c87d3d0da46>, <urn:uuid:9a7fa6c0-8a22-43cb-ad06-84f845eb2364>, <urn:uuid:b0862a8e-3e93-4f5c-8aa5-e32c48916b1f> ;
+    skos:prefLabel "Disciplines" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d7c11888-1f01-4443-adb8-b05df1133b5a>
+    dct:identifier 39 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Expert Opinions" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:d7e51e3b-5c77-4c5d-b506-647735e81ab2>
+    dct:identifier 30 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Management" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:db1a4761-fe47-45c6-a748-f6c830283e94>
+    dct:identifier 110 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Prototyping" .
+
+<urn:uuid:e0783629-9a00-4eda-b9ff-f42a35eecaac>
+    dct:identifier 114 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:f420bb98-6664-4656-b5b9-9e4d8a110740> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Measurement & Research" .
+
+<urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc>
+    dct:identifier 25 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:346e455f-728d-4540-b573-a12c0a6b95b9>, <urn:uuid:4bb33707-cede-46c7-99d3-b56f0be5946b>, <urn:uuid:6f48e770-740c-41e5-9ec4-341a43e953f2>, <urn:uuid:74283f02-b97d-49ef-b3d5-9bed22a21503>, <urn:uuid:7f7764bd-1290-40be-9004-ef59aaee242c>, <urn:uuid:a00b7682-aed0-415c-b2d6-8266df10723e>, <urn:uuid:eb7d87d3-7337-4d3d-be0d-310e53f0f85a> ;
+    skos:prefLabel "Navigation" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae>
+    dct:identifier 21 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:13c9acce-5573-4fed-b0c8-6b0852bf7fab>, <urn:uuid:3adf3c77-1d2e-4c04-8c96-f2f3af20302f>, <urn:uuid:3dad93f9-d3a0-49a2-9140-66f925cfd251>, <urn:uuid:7d075604-cff2-4bbf-a9fe-a84e035954e1>, <urn:uuid:9cb99518-7542-4543-9519-26a668de363a>, <urn:uuid:c6c897e5-c2d3-4342-8457-2f1a69be6623>, <urn:uuid:c9c99806-82ba-444a-a4da-d6ec094a234f> ;
+    skos:prefLabel "Design" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:e37c4cae-bdf5-4aa5-b813-b5f97518c973>
+    dct:identifier 45 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Index Design" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:e6523881-81a2-4d74-8282-3670d1cf1733>
+    dct:identifier 111 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Scenario Development" .
+
+<urn:uuid:e692133d-7e9d-4f18-8cdd-daaaad02de83>
+    dct:identifier 109 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Personas" .
+
+<urn:uuid:eb56653f-0806-431e-849f-5355075df079>
+    dct:identifier 70 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:bff49638-9952-4393-942a-2039aaeb811f> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Structured Information" .
+
+<urn:uuid:eb7d87d3-7337-4d3d-be0d-310e53f0f85a>
+    dct:identifier 99 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Faceted Browsing" .
+
+<urn:uuid:ec0b6d04-cdcc-436d-90cb-385b39018249>
+    dct:identifier 50 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Architecture - Theory" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ec2263b7-ea82-41a8-9aa7-f43392f85515>
+    dct:identifier 130 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:bff49638-9952-4393-942a-2039aaeb811f> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Content" .
+
+<urn:uuid:ed14602c-f3b6-48c8-b50c-aa6b9f48f80e>
+    dct:identifier 69 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:bff49638-9952-4393-942a-2039aaeb811f> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Metadata" .
+
+<urn:uuid:efb18460-e572-45ba-ace8-5ca97712bef9>
+    dct:identifier 95 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Video" .
+
+<urn:uuid:f420bb98-6664-4656-b5b9-9e4d8a110740>
+    dct:identifier 52 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:narrower <urn:uuid:e0783629-9a00-4eda-b9ff-f42a35eecaac> ;
+    skos:prefLabel "Research Methods" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:f8d87b4a-ed6a-47e4-a42a-99f732425756>
+    dct:identifier 96 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "World Wide Web" .
+
+<urn:uuid:fbf83017-f24e-4005-a2b4-9a9197e38b32>
+    dct:identifier 90 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Labeling" .
+
+<urn:uuid:fdf942fa-47b3-40a7-b6f3-eceeec75c50b>
+    dct:identifier 115 ;
+    a skos:Concept ;
+    skos:broader <urn:uuid:74f444ae-f7e8-488c-8049-4257d193c81f> ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Macromedia Flash" .
+
+<urn:uuid:ff0d6a4f-523d-407f-9b3e-9ce71ef5f5aa>
+    dct:identifier 1 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Accessibility" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ff5464b5-0c9c-450f-a2a5-fc3eca37114b>
+    dct:identifier 24 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Organization" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
+<urn:uuid:ff7825ba-8bd4-4a3d-9b15-a8bbe2297b96>
+    dct:identifier 44 ;
+    a skos:Concept ;
+    skos:inScheme <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> ;
+    skos:prefLabel "Information Retrieval" ;
+    skos:topConceptOf <urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630> .
+
