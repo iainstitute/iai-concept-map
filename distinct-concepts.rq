@@ -1,0 +1,5 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT (COUNT (?s) AS ?instances) ?t
+WHERE { ?s skos:prefLabel ?t }
+GROUP BY ?t
+ORDER BY ?instances
