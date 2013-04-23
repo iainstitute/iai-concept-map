@@ -1,0 +1,4 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?Id ?Label ?Type
+WHERE { ?Id a ?Type; skos:prefLabel ?Label }
+ORDER BY ?Label

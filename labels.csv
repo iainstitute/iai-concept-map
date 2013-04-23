@@ -1,0 +1,126 @@
+Id,Label,Type
+urn:uuid:ff0d6a4f-523d-407f-9b3e-9ce71ef5f5aa,Accessibility,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bba39c59-5b0e-45ff-8528-d7a46e1d8bed,Announcements,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:aa90a927-705e-4c03-9bbc-8ee9a03f3e5a,Architecture - Buildings,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:cf5e6b7d-cc99-410e-8d8c-c60f7e668e38,Audio,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ad4cdadb-5a42-4977-bac5-6669ab56c640,Branding,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6f48e770-740c-41e5-9ec4-341a43e953f2,Breadcrumbs,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:41859909-dbbd-4c73-b87b-81c2badd8f29,Business Context,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7b4f4354-952c-445a-8819-50e0f37a489a,Business Strategy,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:1fd50bf8-a214-486a-8381-060e039b3871,Business-to-Business,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:5480133a-d26d-405f-9e85-438c00498cee,Card Sorting,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7a4f241a-ec24-46ab-9675-2be5e0e484a3,Case Studies,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d1b079d7-5788-4d89-8a87-ce6c28df005e,Classics,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6c4d9353-9999-41b6-8f4a-695c4d09db4b,Classification,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:2255d641-ad48-4fec-9e43-1e03ba7a25de,Classification Systems,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9f05bace-6412-46a0-ae55-1e4fad58d21f,Client Management,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9a7fa6c0-8a22-43cb-ad06-84f845eb2364,Cognitive Science,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9f320ae9-52b6-4b47-bf43-072e1ca525e0,Communication Technology,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:b0862a8e-3e93-4f5c-8aa5-e32c48916b1f,Computer Science,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9c40578b-9734-4af0-8752-206fe916bf5c,Conferences & Meetings,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ec2263b7-ea82-41a8-9aa7-f43392f85515,Content,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:8085df69-3520-4b73-a97e-0dc1d4d5bc84,Content Inventories,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bff49638-9952-4393-942a-2039aaeb811f,Content Management,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:a00b7682-aed0-415c-b2d6-8266df10723e,Contextual Navigation,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9baa0727-a2fc-49ec-b626-518dc9cca3ab,Controlled Vocabularies,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:e309126b-f12b-4f03-bf57-17fcc9becdae,Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9dd1b55b-a342-4647-a00f-5afec643c26b,Digital Libraries,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d7632732-050f-49c5-a265-b05f585b43c0,Disciplines,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7a0bbe2a-fbd9-42f2-96bd-a946b86c4458,Discussion Lists,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:83c2ced3-8cdf-4039-820b-c893b8fed5e6,E-commerce,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:b4d041e0-562f-47cd-8b71-34a4aaefac73,E-mail,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:955115b5-1993-41a0-9bcb-660be7e5e38b,Education & Training,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7e7ebafb-8515-48ea-b204-418bcd6a3601,End Users,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d2fa8109-6280-47f3-9506-52ac41ec4fb0,Evaluation & Analysis,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:89a45d20-d9da-4019-a2d3-9c87d3d0da46,Experience Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9cb99518-7542-4543-9519-26a668de363a,Experience Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d7c11888-1f01-4443-adb8-b05df1133b5a,Expert Opinions,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:eb7d87d3-7337-4d3d-be0d-310e53f0f85a,Faceted Browsing,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bfdbed95-50c7-499b-882b-933373e3dc6e,Faceted Classification,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:aa2f0ea8-578c-432f-b465-f6b45f7a4226,Findability,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:cf9fc624-cf6d-4a19-bfc3-533838aa0fd9,Findability,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:024a4e9d-6a38-4ca9-8f40-6dc38dc62a94,Flow Charts,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:c9c99806-82ba-444a-a4da-d6ec094a234f,Graphic Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:b4b30993-1afa-4ea9-8385-847fed1ce57e,Guidelines & Best Practices,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:aea32118-7d41-4e19-b2af-e79f8d633335,Guides & Collections,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:5d7c59cf-afe1-426d-88a1-82785dfc8af4,Hardware,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:5c83330a-708f-49a4-afc1-5755d8efc38f,Human Computer Interaction,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bf6f235d-e998-4721-8027-6e57028d1630,IA Institute Library Concepts,http://www.w3.org/2004/02/skos/core#ConceptScheme
+urn:uuid:e37c4cae-bdf5-4aa5-b813-b5f97518c973,Index Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:41680709-76cc-4473-a69c-8e661fcfa9d9,Indexing,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6154f028-3175-4f5a-9561-76f15532f9a5,Information Architecture - Education & Training,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:47664a3d-96ca-406a-a696-1e44a38eba11,Information Architecture - General,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6699d2a4-ed54-4226-81b5-617419805f69,Information Architecture - Job Skills,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7d8b5d1e-9a48-40a1-bfc7-7c5e2713360c,Information Architecture - Practices,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ec0b6d04-cdcc-436d-90cb-385b39018249,Information Architecture - Theory,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:13c9acce-5573-4fed-b0c8-6b0852bf7fab,Information Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:96172e29-c4ad-4cab-8cf5-829d4cd1c238,Information Organization,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ff7825ba-8bd4-4a3d-9b15-a8bbe2297b96,Information Retrieval,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7f7764bd-1290-40be-9004-ef59aaee242c,Information Scent,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:09ddcfdd-99e3-458b-8b5b-c85c6b4fe98d,Information Science,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:74283f02-b97d-49ef-b3d5-9bed22a21503,Information Seeking Behavior,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9cd4c251-b8ad-43be-bb32-2ffedd867d30,Instant Messaging,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:3adf3c77-1d2e-4c04-8c96-f2f3af20302f,Interaction Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:c920bff7-42f7-4b87-8e7a-80b342a893dd,Interface Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:609d8ce1-0798-4724-9501-80dda087fac8,Intranets & Extranets,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:2f2524f5-0803-4fd4-ae03-831e01c24d37,Journalism,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:4d5a166e-36ef-4a0f-9590-4e6fc04749f7,Justification,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:0b7ff419-bfa9-4880-a5da-0af7cc6608b2,Knowledge Management,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:fbf83017-f24e-4005-a2b4-9a9197e38b32,Labeling,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:314897d6-bea0-4d2e-874d-7358b98873a8,Language Processing,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:355683ab-9c6d-4a7f-9a6f-7ea75670776b,Laptop & Tablet Computers,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:1ce1033a-3d7d-4de2-befe-a72074f19cd6,Law,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:48a4c68f-e50c-4b49-864c-cd8c80383761,Library & Information Science,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:fdf942fa-47b3-40a7-b6f3-eceeec75c50b,Macromedia Flash,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d7e51e3b-5c77-4c5d-b506-647735e81ab2,Management,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:e0783629-9a00-4eda-b9ff-f42a35eecaac,Measurement & Research,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:18869c1d-e6e2-4ffb-bf44-8a13ec9b88b2,Media,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ed14602c-f3b6-48c8-b50c-aa6b9f48f80e,Metadata,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:5fdef3d7-de61-479b-81e3-c9c3bcbc5ba5,Mobile Phones,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:e1e14be0-393b-4ffb-9a0d-40a036bcbfbc,Navigation,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7335e038-ad13-47b7-9c86-e5c1a400ad67,Ontologies,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ff5464b5-0c9c-450f-a2a5-fc3eca37114b,Organization,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:5e5bf5a1-65c4-448d-a538-c44e5adb59e8,Organizational Theory,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:68a6f8d7-cdec-47dc-b9a6-febe27580082,Patterns,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:c6c897e5-c2d3-4342-8457-2f1a69be6623,Patterns,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ab009827-4e41-426e-aa86-705e7e8ee441,Personal Digital Assistants,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:c80a070e-1565-4654-8103-e59769007f42,Personal Digital Assistants,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:17e6a8e5-7c7c-4c65-8f5b-cbbd11ff1825,Personalization & Customization,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:e692133d-7e9d-4f18-8cdd-daaaad02de83,Personas,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ccf73214-f792-4771-9dec-53958624c839,Portals,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:346e455f-728d-4540-b573-a12c0a6b95b9,Primary Navigation,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6f33ef7e-d8f2-4c7f-b199-220cd82360bb,Process & Techniques,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:b5917a19-269c-425a-b51b-042ab280063a,Project Management,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:db1a4761-fe47-45c6-a748-f6c830283e94,Prototyping,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:0339bd3a-1495-46d2-a252-6cb85d3d0599,RDF,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:401a15e4-b3c3-4524-b1cc-02a7de75a3c7,RSS,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:f420bb98-6664-4656-b5b9-9e4d8a110740,Research Methods,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:e6523881-81a2-4d74-8282-3670d1cf1733,Scenario Development,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:414c33cd-d712-495a-9a37-a2b41aaab9a2,Search Technology,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:1382e9c1-b28c-44fb-ba43-21b7d71bd1bb,Searching,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:65bd8cd3-6665-4b20-8f16-1a3e1c36ee16,Semantic Web,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:caa59164-2b81-432b-8b9e-5cd936b85d2b,Site Blueprints,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9fe7eafb-3331-43c5-b388-a264b8b40b22,Social Context,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:0f72aabd-b34b-43ad-8476-fb015741696a,Software,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:74f444ae-f7e8-488c-8049-4257d193c81f,Software,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:12e88375-1e85-4996-b4fc-c88387e2e589,Standards & Guidelines,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:eb56653f-0806-431e-849f-5355075df079,Structured Information,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:4bb33707-cede-46c7-99d3-b56f0be5946b,Supplemental Navigation,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:0f76c055-b1db-449c-9b82-7938c1b604d3,Theory,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9a26e990-3682-4e88-b575-38c7fa7472dc,Thesauri,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d2e9a10c-ea5e-486d-82e1-dd8c056f2fea,Thesaurus Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:480bd8e5-0eb5-40b5-a9f4-5abd48669959,Tools & Technology,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:52496aa7-2611-4b1c-99da-e2c6888bc554,User Centered Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bfc84d9e-bbbb-438e-9776-c486bdab2dbd,User Testing,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:efb18460-e572-45ba-ace8-5ca97712bef9,Video,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7d075604-cff2-4bbf-a9fe-a84e035954e1,Visual Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:ae7e94c5-a507-4814-b12d-70d7df6afb68,Web Blogging,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:7353aec3-62ea-46d1-85af-9229e6e7aad7,Web Browsers,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:3dad93f9-d3a0-49a2-9140-66f925cfd251,Web Design,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:1b7e10db-4198-4268-a8a1-1d09681dcb8e,Web Development,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:97b19901-c322-497e-b3e9-cae1790d0ed1,Wireframes,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:6e2417a5-e29f-4b3a-aaea-0877458e131d,Wireless Networking,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:f8d87b4a-ed6a-47e4-a42a-99f732425756,World Wide Web,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:9c89332d-07af-496a-b6c2-c189659dd375,Writing for the Web,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:bd5ec3e2-d019-4303-adec-3b6b2d152dec,XFML,http://www.w3.org/2004/02/skos/core#Concept
+urn:uuid:d36b00b9-48ac-4b00-be3b-579fffe41226,XML,http://www.w3.org/2004/02/skos/core#Concept
